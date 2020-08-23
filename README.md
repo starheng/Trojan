@@ -16,6 +16,10 @@ Youtube：波仔分享
 
 脚本安装命令
 
-curl -O https://raw.githubusercontent.com/V2RaySSR/Trojan/master/Trojan.sh && chmod  x trojan.sh && ./trojan.sh
+安装wget
 
-wget --no-check-certificate https://raw.githubusercontent.com/V2RaySSR/Trojan/master/Trojan.sh && chmod +x Trojan.sh && ./Trojan.sh
+yum -y install wget    ##ContOS Yum 安装 wget
+apt-get install wget   ##Debian Ubuntu 安装 wget
+脚本如下
+
+wget -N --no-check-certificate -q -O trojan_install.sh "https://raw.githubusercontent.com/V2RaySSR/Trojan/master/trojan_install.sh" && chmod +x trojan_install.sh && bash trojan_install.sh
