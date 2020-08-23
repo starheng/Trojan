@@ -18,8 +18,9 @@ Youtube：波仔分享
 
 安装wget
 
-yum -y install wget    ##ContOS Yum 安装 wget
-apt-get install wget   ##Debian Ubuntu 安装 wget
-脚本如下
+<br/>yum -y install wget    ##ContOS Yum 安装 wget</br>
+<br/>apt-get install wget   ##Debian Ubuntu 安装 wget</br>
 
-wget -N --no-check-certificate -q -O trojan_install.sh "https://raw.githubusercontent.com/V2RaySSR/Trojan/master/trojan_install.sh" && chmod +x trojan_install.sh && bash trojan_install.sh
+<br/>脚本如下</br>
+
+<br/>wget -N --no-check-certificate -q -O trojan_install.sh "https://raw.githubusercontent.com/V2RaySSR/Trojan/master/trojan_install.sh" && chmod +x trojan_install.sh && bash trojan_install.sh</br>
